@@ -38,70 +38,85 @@ public class ApiController {
 
 		ArrayList<Productos> elementos = new ArrayList<>();
 
-		elementos.add(new Productos(1l, "Telefono", "Telefono de ultima generación", 500.50, "Telefonia",
-				"https://www.telcel.com/content/dam/telcelcom/dispositivos/Huawei/DRA-LX3/imagenes/negro/frontal.jpg/jcr:content/renditions/cq5dam.web.250.470.jpeg"));
+		elementos.add(new Productos(1l, "Pepsi", "Pepsi, 12 - 12 FL OZ (355 mL), Cans", 20, "Bebidas",
+				"https://www.pepsico.com/images/album/product-information/240_pepsi_12oz.png?sfvrsn=9602ed47_2", 100));
 
-		elementos.add(new Productos(2l, "PAN", "Pan del diario", 550, "Comida",
-				"https://cdn.pixabay.com/photo/2010/12/13/10/14/background-2561__340.jpg"));
+		elementos.add(new Productos(2l, "Papas", "Lay's, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/lays.png?sfvrsn=27679900_2", 100));
 
-		elementos.add(new Productos(3l, "Vino", "Vino reposado en barricas de roble", 5500, "Licores",
-				"https://cdn.pixabay.com/photo/2016/10/31/19/38/wine-1786539__340.jpg"));
+		elementos.add(new Productos(3l, "Mountain Dew", "Mountain Dew, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 30, "Bebidas",
+				"https://www.pepsico.com/images/album/product-information/mtdew_20oz.png?sfvrsn=8b173a59_2", 100));
 
-		elementos.add(new Productos(4l, "Camara Profecional", "Camara profecional Reflex de 45px lente de 55-18mm",
-				5500, "Electronics", "https://cdn.pixabay.com/photo/2014/08/29/14/53/photo-431119__340.jpg"));
+		elementos.add(new Productos(4l, "Doritos", "Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag",
+				55.00, "Botana", "https://www.pepsico.com/images/album/product-information/doritos-nc.png?sfvrsn=81893cca_2", 100));
 
-		elementos.add(new Productos(5l, "Kindle", "Moderno lector de libros digitales", 5100, "Electronics",
-				"https://cdn.pixabay.com/photo/2014/07/01/12/37/kindle-381242__340.jpg"));
+		elementos.add(new Productos(5l, "Gatorade", "Gatorade, 12 - 12 FL OZ (355 mL), Cans", 25, "Bebidas",
+				"https://www.pepsico.com/images/album/product-information/gat_hero_28oz_ml_or_refl.png?sfvrsn=bf51734f_2", 100));
 
-		elementos.add(new Productos(6l, "Dron", "Dron con camara integrada de la marca DronPatito", 5500, "Electronics",
-				"https://cdn.pixabay.com/photo/2016/09/10/11/42/quadrocopter-1658967__340.png"));
+		elementos.add(new Productos(6l, "Quaker", "Avena para un buen desayuno balanceado", 25, "Alimentos",
+				"https://www.pepsico.com/images/album/product-information/sqo-new.png?sfvrsn=9bef5177_2", 100));
 
-		elementos.add(new Productos(7l, "Sala Comedor", "Comoda sala para decorar la casa", 15500, "Muebles",
-				"https://cdn.pixabay.com/photo/2017/08/06/11/09/interior-2591368__340.jpg"));
+		elementos.add(new Productos(7l, "Chetos", "Chetos, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag ", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/cheetos-crunchy-(1).png?sfvrsn=82c3bbff_2", 100));
 
-		elementos.add(new Productos(8l, "Smart Tv", "Televisión con 50 pulgadas Led", 8800, "Electronics",
-				"https://image.shutterstock.com/image-photo/4k-monitor-isolated-on-white-260nw-357968483.jpg"));
+		elementos.add(new Productos(8l, "Tostitos", "Tostitos, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 18, "Botana",
+				"https://www.pepsico.com/images/album/product-information/tostitos-rstc.png?sfvrsn=55ecd150_2", 100));
 
-		elementos.add(new Productos(9l, "Audi", "Sorprendente auto carisimo por sierto", 555500, "Autos",
-				"https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019__340.jpg"));
+		elementos.add(new Productos(9l, "Fritos", "Fritos, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag ", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/fritos-original.png?sfvrsn=f38366c1_2", 100));
 
-		elementos.add(new Productos(10l, "Ropa", "Outfit Millenials", 5500, "Ropa y Accesorios",
-				"https://cdn.pixabay.com/photo/2015/09/02/12/28/fashion-918446__340.jpg"));
+		elementos.add(new Productos(10l, "Mirinda", "Pepsi, 12 - 12 FL OZ (355 mL), Cans", 20, "Bebidas",
+				"https://www.pepsico.com/images/album/product-information/mirinda_orange_refreshed.png?sfvrsn=4197944c_2", 100));
 
-		elementos.add(new Productos(11l, "Camisas", "Lindas camisas para ir a la oficina bien Godin", 5500, "Ropa",
-				"https://cdn.pixabay.com/photo/2014/08/26/21/48/shirts-428600__340.jpg"));
+		elementos.add(new Productos(11l, "Nut Harvest", "Nut Harvest, Barbecue Flavored, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag ", 30, "Botana",
+				"https://www.pepsico.com/images/album/product-information/nut-harvest-mixed-nuts.png?sfvrsn=f15dbeb1_2", 100));
 
-		elementos.add(new Productos(12l, "Mac de escritorio", "Excelente computadora de escritorio", 55500,
-				"Electronics", "https://cdn.pixabay.com/photo/2017/10/15/09/33/desk-2852986__340.jpg"));
+		elementos.add(new Productos(12l, "Smarth food", "Smarth food, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag ", 20,
+				"Alimentos", "https://www.pepsico.com/images/album/product-information/smartfood-black-bag.png?sfvrsn=80243dbe_2", 100));
 
-		elementos.add(new Productos(13l, "Xbox 360", "Consola de Juegos para pasar horas de diversion", 19000,
-				"Electronics", "https://cdn.pixabay.com/photo/2016/02/14/21/09/xbox-1200296__340.jpg"));
+		elementos.add(new Productos(13l, "Sun Chips", "sun chips, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag ", 19,
+				"Botana", "https://www.pepsico.com/images/album/product-information/sunchips-original.png?sfvrsn=10926eb_2", 100));
 
-		elementos.add(new Productos(14l, "PlayStation 4", "Increible consola de videojuegos", 19500, "Electronics",
-				"https://cdn.pixabay.com/photo/2017/05/19/14/09/ps4-2326616__340.jpg"));
+		elementos.add(new Productos(14l, "Bare Snack", "Bare Snack, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 19, "Botana",
+				"https://www.pepsico.com/images/album/product-information/bare-apple-3-4oz-fuji-no-holes01.png?sfvrsn=a5498670_2", 100));
 
-		elementos.add(new Productos(15l, "Dulces tradicionales", "Ricos dulces para compartir", 5500, "Comida",
-				"https://image.shutterstock.com/image-photo/mexican-traditional-candies-colorful-assorted-260nw-655469329.jpg"));
+		elementos.add(new Productos(15l, "Sabritones", "Sabritones, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/sabritones-chili-and-lime.png?sfvrsn=b6bfc025_2", 100));
 
+		elementos.add(new Productos(15l, "Santitas", "Santitas, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/santitas.png?sfvrsn=45cb9fc1_2", 100));
+		
+		elementos.add(new Productos(15l, "Matador", "Matador, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/matador-3oz_original.png?sfvrsn=88a079f7_2", 100));
+		
+		elementos.add(new Productos(15l, "Aquafina", "Aquafina, 12 - 12 FL OZ (355 mL)", 10, "Bebida",
+				"https://www.pepsico.com/images/album/product-information/aquafina_20oz.png?sfvrsn=23a654ac_2", 100));
+		
+		elementos.add(new Productos(15l, "Ruffles", "Ruffles de Queso, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/ruffles-xxl-cheddar-sour-cream-(1).png?sfvrsn=7891b35e_2", 100));
+		
+		elementos.add(new Productos(15l, "Sabritones", "Sabritones, Barbecue Flavored, Potato Chips, Net Wt 23 OZ (1 LB. 7 OZ) 652 g, Bag", 20, "Botana",
+				"https://www.pepsico.com/images/album/product-information/sabritones-chili-and-lime.png?sfvrsn=b6bfc025_2", 100));
+		
 		return elementos;
 	}
 
 	@RequestMapping(value = "/clientes", method = RequestMethod.GET)
 	public @ResponseBody ArrayList<Clientes> getClientes() {
 		ArrayList<Clientes> elementos = new ArrayList<>();
-		elementos.add(new Clientes(1l, "Santander", 999932));
-		elementos.add(new Clientes(2l, "BizPro", 999932));
-		elementos.add(new Clientes(3l, "BizProBPM", 999932));
-		elementos.add(new Clientes(4l, "Banorte", 999932));
-		elementos.add(new Clientes(5l, "Telcel", 999932));
-		elementos.add(new Clientes(6l, "Bimbo", 999932));
+		elementos.add(new Clientes(1l, "Walmart", 999932));
+		elementos.add(new Clientes(2l, "Soriana", 999932));
+		elementos.add(new Clientes(3l, "La Comer", 999932));
+		elementos.add(new Clientes(4l, "Costco", 999932));
+		elementos.add(new Clientes(5l, "Bodega Aurrera", 999932));
+		elementos.add(new Clientes(6l, "Sam's", 999932));
 		elementos.add(new Clientes(7l, "Pepsi", 999932));
-		elementos.add(new Clientes(8l, "Izzi", 999932));
-		elementos.add(new Clientes(9l, "Coca cola", 999932));
+		elementos.add(new Clientes(8l, "Tiendas 3 B", 999932));
+		elementos.add(new Clientes(9l, "Chedraui", 999932));
 		elementos.add(new Clientes(10l, "Otro", 999932));
-
 		return elementos;
 	}
+	//agregar tiendas en lugar de clientes
 
 	@PostMapping(value = "/generarQr")
 	@ResponseStatus(HttpStatus.OK)
@@ -116,8 +131,8 @@ public class ApiController {
 	private String generarQR(GenerarQr qr) throws WriterException, IOException {
 
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		BitMatrix bitMatrix = new MultiFormatWriter().encode("Total: " + qr.getTotal() + "\nNombreProducto: "
-				+ qr.getLista() + "\nNumero de Cuenta: " + qr.getNumeroCuenta() + " \nNombre: " + qr.getNombre(),
+		BitMatrix bitMatrix = new MultiFormatWriter().encode("Total: " + qr.getSumaTotal() + "\nNombreProducto: "
+				+ qr.getLista() + "\nProductos totales: " + qr.getLista().size() + "\nNumero de Cuenta: " + qr.getNumeroCuenta() + " \nTienda: " + qr.getNombre() + "\nNumero empleado: "+ qr.getNumeroEmpleado() ,
 				BarcodeFormat.QR_CODE, 250, 250);
 		MatrixToImageWriter.writeToStream(bitMatrix, MediaType.IMAGE_PNG.getSubtype(), baos, new MatrixToImageConfig());
 		byte[] data = baos.toByteArray();

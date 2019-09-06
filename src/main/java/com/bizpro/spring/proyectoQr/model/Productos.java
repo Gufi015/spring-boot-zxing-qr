@@ -6,8 +6,10 @@ public class Productos {
 
 	}
 
+	
+	
 	public Productos(Long id, String nombreProducto, String descripcionProducto, double precio, String categoria,
-			String image) {
+			String image, int stock) {
 		super();
 		this.id = id;
 		this.nombreProducto = nombreProducto;
@@ -15,7 +17,14 @@ public class Productos {
 		this.precio = precio;
 		Categoria = categoria;
 		this.image = image;
+		this.stock = stock;
 	}
+
+
+
+	/*
+	 * Productos ->Precio -> Cantidad Total Tienda No.Empleado (editado)
+	 */
 
 	private Long id;
 	private String nombreProducto;
@@ -23,6 +32,7 @@ public class Productos {
 	private double precio;
 	private String Categoria;
 	private String image;
+	private int stock;
 
 	public Long getId() {
 		return id;
@@ -71,11 +81,20 @@ public class Productos {
 	public void setImage(String image) {
 		this.image = image;
 	}
+	
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
 
 	@Override
 	public String toString() {
 		return "Productos [id=" + id + ", nombreProducto=" + nombreProducto + ", descripcionProducto="
-				+ descripcionProducto + ", precio=" + precio + ", Categoria=" + Categoria + ", image=" + image + "]";
+				+ descripcionProducto + ", precio=" + precio + ", Categoria=" + Categoria + ", image=" + image
+				+ ", stock=" + stock + "]";
 	}
 
 }
